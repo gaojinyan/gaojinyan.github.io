@@ -43,7 +43,7 @@
 			<img src="/img/shui.jpg" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">gaojinyan</a></h1>
+		  <h1 class="header-author"><a href="/">Aquarius</a></h1>
 		</hgroup>
 		
 
@@ -54,14 +54,16 @@
 	        
 				<li><a href="/tags/">标签</a></li>
 	        
-				<li><a href="/resume">关于我</a></li>
-	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
     			
             
 		</nav>
@@ -91,12 +93,10 @@
 				<img src="/img/shui.jpg" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">gaojinyan</h1>
+			  <h1 class="header-author js-header-author">Aquarius</h1>
 			</hgroup>
 			
 			
-			
-				
 			
 				
 			
@@ -115,14 +115,12 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 70%">
+				<ul style="width: 50%">
 				
 				
-					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags/">标签</a></li>
-		        
-					<li style="width: 33.333333333333336%"><a href="/resume">关于我</a></li>
+					<li style="width: 50%"><a href="/tags/">标签</a></li>
 		        
 				</ul>
 			</nav>
@@ -216,7 +214,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017 gaojinyan
+    		&copy; 2017 Aquarius
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -252,13 +250,21 @@
       
       
     
+      
+      
+      
+    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 100%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      
+        
+      
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -323,6 +329,12 @@
 
     
 
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;p&gt;95年前端，工作8个月，做了两个项目一个类似电商平台，一个类似数据查询系统。&lt;br&gt;个性开朗，正在寻找前端工作！&lt;p&gt;</div>
+  	  	
+    	</section>
     
   </div>
   
